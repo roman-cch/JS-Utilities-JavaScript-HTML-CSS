@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#temporizador-container{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+}
+#display-container{
+    display: flex;
+    justify-content: center;
+}
+.display{
+    padding: 20px 40px;
+    border: solid 1px #ccc;
+
+}
+.display div{
+    display: block;
+    text-align: center;
+}
+.display .numero{
+    font-size: 80px;
+}
+.display .botones-container button{
+    font-size: 30px;
+    padding: 10px 15px;
+}
+#botones-container{
+    text-align: center;
+    padding: 10px 15px;
+}
+
+

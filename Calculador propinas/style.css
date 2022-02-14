@@ -1,0 +1,45 @@
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+}
+#propina-container{
+    background-color: white;
+    width: 500px;
+    margin: 100px;
+    padding: 20px;
+}
+#resultados{
+    display: grid;
+    grid-template: repeat(2,1fr)/repeat(2,1fr);
+}
+.persona{
+    border-radius: 3px;
+    border: solid 1px #ccc;
+    padding: 10px;
+    margin: 10px;
+
+}
+.persona div{
+    padding: 5px 0;
+}
+.persona h3{
+    text-align: center;
+}
+.form label,
+.form input{
+    display: block;
+    padding: 5px;
+    width: 100%;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+#summary{
+    text-align: center;
+}
+.pagado{
+    background-color: rgb(200, 166, 228);
+}
+
+
+

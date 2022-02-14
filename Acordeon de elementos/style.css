@@ -1,0 +1,23 @@
+.acordeon{
+    width: 500px;
+    margin: 100px;
+}
+
+.acordeon .item{
+    display: block;
+}
+
+.acordeon .item .header button{
+    display: block;
+    width: 100%;
+    padding: 20px;
+}
+
+.acordeon .item .content{
+    transition: heigth 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    overflow: hidden;
+    height: 0;
+}
+.acordeon .item .content.show{
+    height: 150px;
+}
